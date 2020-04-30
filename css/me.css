@@ -2,14 +2,6 @@
 #valine_container .vcards .vhead .vsys {
     color: #7889c3;
 }
-#comments #valine_container .vwrap .vemojis .vemoji,#comments #valine_container .vwrap .vpreview .vemoji {
-    max-height: 22px !important;
-    max-width: 50px !important;
-}
-#comments #valine_container .vcards .vcontent .vemoji {
-    max-height: 24px !important;
-    max-width: 50px !important;
-}
 /*code-block-fullscreen*/
 .code-block-fullscreen {
     position:fixed !important;
