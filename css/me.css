@@ -23,9 +23,9 @@
     animation:elastic 1s
 }
 .code-block-fullscreen-html-scroll {
-    overflow:hidden !important;
+    overflow:hidden;
 }
 .code-block-fullscreen-overflow-auto {
-    overflow:auto !important;
+    overflow:auto;
 }
 
