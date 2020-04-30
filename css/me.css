@@ -20,7 +20,7 @@
     min-width:100% !important;
     z-index:9999999 !important;
     margin:0 !important;
-    animation:elastic 1s
+    animation:elastic 3s !important;
 }
 .code-block-fullscreen-html-scroll {
     overflow:hidden;
