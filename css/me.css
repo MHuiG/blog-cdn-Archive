@@ -1,3 +1,4 @@
+/*Valine*/
 #valine_container .vcards .vhead .vsys {
     color: #7889c3;
 }
@@ -9,3 +10,19 @@
     max-height: 24px !important;
     max-width: 50px !important;
 }
+/*mac*/
+.code-block-fullscreen {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    min-width:100%;
+    z-index:9999999;
+    margin:0;
+    animation:elastic 1s
+}
+.code-block-fullscreen-html-scroll {
+    overflow:hidden
+}
+
