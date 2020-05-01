@@ -20,4 +20,8 @@
 .code-block-fullscreen-overflow-auto {
     overflow:auto;
 }
-
+.code-block-fullscreen-gutter {
+    height: calc(97vh) !important;
+    padding: 16px 12px !important;
+    vertical-align: top !important;
+}
