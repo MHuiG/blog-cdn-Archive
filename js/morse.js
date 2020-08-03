@@ -148,27 +148,35 @@ var morse = (function(global){
 var str=morse.parse("There is a lone whale in the ocean of Alone, and it did not give up the ocean. It finally found a partner of the same frequency in the end.");
 var i=0;
 setInterval(function(){
+	try{
 	if(i<str.length-1){
 		makeRipple(i);
 		i++
 	}else{
 		i=0;
 	};
+	}catch(e){}
 },500);
 function makeRipple(i){
 	try{
 		if(str.substring(i,i+1)==" "){
+			try{
 			var ripple3=document.createElement("div");
 			ripple3.className="rip-ripple3";
 			document.getElementById("rip-waterBorder").appendChild(ripple3);
+			}catch(e){}
 		}else if(str.substring(i,i+1)=="-"){
+			try{
 			var ripple2=document.createElement("div");
 			ripple2.className="rip-ripple2";
 			document.getElementById("rip-waterBorder").appendChild(ripple2);
+			}catch(e){}
 		}else if(str.substring(i,i+1)=="."){
+			try{
 			var ripple=document.createElement("div");
 			ripple.className="rip-ripple";
 			document.getElementById("rip-waterBorder").appendChild(ripple);
+			}catch(e){}
 		}
 	}catch(e){}
 }
