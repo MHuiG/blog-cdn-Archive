@@ -13,4 +13,6 @@ jobs:
     steps:
       - name: 'wakeup'
         run: |
+          pwd
+          ls -l
           python ./blog-cdn/py/wakeup.py
