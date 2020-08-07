@@ -13,7 +13,4 @@ jobs:
     steps:
       - name: 'wakeup'
         run: |
-          ifconfig
-          curl https://mhuig.avosapps.us
-          curl https://s1uxuqjzzpqr.leanapp.cn
-          curl https://zhm0aoiqwqwt.leanapp.cn
+          python ./py/wakeup.py
