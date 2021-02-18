@@ -11605,7 +11605,7 @@ var PDFWorker = function PDFWorkerClosure() {
 
   if (_is_node.isNodeJS && typeof require === "function") {
     isWorkerDisabled = true;
-    fallbackWorkerSrc = "./pdf.worker.js";
+    fallbackWorkerSrc = "https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@master/libs/pdf.js/cdn/build/pdf.worker.js";
   } else if ((typeof document === "undefined" ? "undefined" : _typeof(document)) === "object" && "currentScript" in document) {
     var pdfjsFilePath = document.currentScript && document.currentScript.src;
 
