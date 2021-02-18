@@ -4518,7 +4518,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "../build/pdf.worker.js",
+    value: "https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@master/libs/pdf.js/cdn/build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
