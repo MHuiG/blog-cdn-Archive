@@ -4380,7 +4380,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@master/libs/pdf.js/cdn/web/compressed.tracemonkey-pldi-09.pdf",
+    value: "./compressed.tracemonkey-pldi-09.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
@@ -4518,7 +4518,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@master/libs/pdf.js/cdn/build/pdf.worker.js",
+    value: "../build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
